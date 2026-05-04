@@ -1,0 +1,17 @@
+{
+  "name": "skullking-online",
+  "version": "1.0.0",
+  "description": "Skull King multijoueur en ligne — déployable sur Vercel",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/kv": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
